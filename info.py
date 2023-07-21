@@ -12,9 +12,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID', '6764849')
-API_HASH = environ['API_HASH', '682f2b9a44e0aab50c6e559963e19ff0']
-BOT_TOKEN = environ['BOT_TOKEN', '1973939003:AAG084aGDERxGL7tGwf_vG5rZPyN-RjsMd8']
+API_ID = 26331302
+API_HASH = '5d7bbff0c04b119735e4e14bdb402e69'
+BOT_TOKEN = '6201307785:AAG0gB_uqvs9_konxBuLouEH9fwvwIQdzsM'
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -32,12 +32,11 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Erichdaniken:Erichdaniken@cluster0.jrerx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "myfilmbot")
+DATABASE_URI = 'mongodb+srv://music:music@cluster0.6nwpwo2.mongodb.net/?retryWrites=true&w=majority'
+DATABASE_NAME = 'music'
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001670260326'))
+LOG_CHANNEL = -1001927205991
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '@cinehub_family')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
@@ -48,8 +47,8 @@ IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Query: {query}</b> \n‌‌‌�
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
-INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+INDEX_REQ_CHANNEL = -1001927205991
+FILE_STORE_CHANNEL = -1001927205991
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
