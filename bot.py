@@ -29,7 +29,6 @@ class Bot(Client):
             plugins={"root": "plugins"},
             sleep_threshold=5,
         )
-PORT = 5000
     async def start(self):
         b_users, b_chats = await db.get_banned()
         temp.BANNED_USERS = b_users
@@ -46,7 +45,9 @@ PORT = 5000
         app = web.AppRunner(await web_server())
         await app.setup()
         bind_address = "0.0.0.0"
-        await web.TCPSite(app, bind_address, PORT).start()
+        await web.TCPSite(app, bind_address, 5000).start()
+
+    
 
     async def stop(self, *args):
         await super().stop()
