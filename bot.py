@@ -30,6 +30,7 @@ class Bot(Client):
             sleep_threshold=5,
         )
     async def start(self):
+        await super().start()
         b_users, b_chats = await db.get_banned()
         temp.BANNED_USERS = b_users
         temp.BANNED_CHATS = b_chats
@@ -45,7 +46,7 @@ class Bot(Client):
         app = web.AppRunner(await web_server())
         await app.setup()
         bind_address = "0.0.0.0"
-        await web.TCPSite(app, bind_address, 5000).start()
+        await web.TCPSite(app, bind_address, 80).start()
 
     
 
