@@ -54,4 +54,3 @@ class Bot(Client):
         await super().stop()
         logging.info("Bot stopped. Bye.")
 
-Bot().run()
