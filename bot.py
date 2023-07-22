@@ -29,7 +29,7 @@ class Bot(Client):
             plugins={"root": "plugins"},
             sleep_threshold=5,
         )
-
+PORT = 5000
     async def start(self):
         b_users, b_chats = await db.get_banned()
         temp.BANNED_USERS = b_users
@@ -51,6 +51,5 @@ class Bot(Client):
     async def stop(self, *args):
         await super().stop()
         logging.info("Bot stopped. Bye.")
-
 
 Bot().run()
