@@ -1,45 +1,9 @@
 class script(object):
-    START_TXT = """👋 Hey There !
-
- ɪ'ᴍ  🄲🄸🄽🄴🄷🅄🄱 ᴍᴇᴅɪᴀ sᴇᴀʀᴄʜᴇʀ ʙᴏᴛ ɪɴ ᴄɪɴᴇʜᴜʙ ᴄᴏᴍᴍᴜɴɪᴛʏ . . .
-
-මට පුලුවන් ඔයාට ඕන කර ғɪʟᴍ එක ᴛᴠ sᴇʀɪᴇs එක හොයල දෙන්න . . .
-ඔයාලට මොකක් හරි ගැටලුවක් ආවොත් /help එක හරි message එකක් හරි දාන්න
-
-😇 ආ ! අපේ ᴅᴀᴛᴀʙᴀsᴇ එකේ ඔයා හොයන ғɪʟᴍ ᴏʀ ᴛᴠ sᴇʀɪᴇs තිබ්බෙ නැත්නම් message එකක් දාලා තියන්න අපි පුලුවන් ඉක්මනට ᴜᴘʟᴏᴀᴅ කරන්නම් 
-
-<b>⚡️ ʙᴏᴛ ɴᴀᴍᴇ : @media_searcher_bot</b> 
-
-🍀 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ; @cinehub_family
-
-💠 ᴊᴜsᴛ ᴘʀᴇss ғᴏʟʟᴏᴡɪɴɢ ʙᴜᴛᴛᴏɴs ᴀɴᴅ sᴛᴀʀᴛ sᴇᴀʀᴄʜɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ sᴇᴀʀᴄʜ ғɪʟᴇs ɪɴ ɪɴʟɪɴᴇ ᴍᴏᴅᴇ ᴜsɪɴɢ ᴍᴇ"""
-    HELP_TXT = """👋 Hey {}
-<b>ɴᴇᴇᴅ ᴀɴʏ ʜᴇʟᴘ ❔
-ᴊᴜsᴛ ᴄʟɪᴄᴋ /help ᴛᴏ sᴏʟᴠᴇ ʏᴏᴜʀ ᴘʀᴏʙʟᴇᴍs ᴀʙᴏᴜᴛ sᴛᴇᴘs</b>
-
-📌Oтнer Opтιoɴѕ 
-🎬 ඔයාලට මේ වගේ සිංහල උපසිරැසියක් හොයාගන්න ඕන නම් මෙන්න ඉන්නවා අපේ @sub_searcher_bot ,
-කරන්න තියෙන්නෙ මේ වගෙම උපසිරැසිය ඕන ғɪʟᴍ එ‍කේ ᴛᴠ sᴇʀɪᴇs එ‍කේ name එක search කරන එක විතරයි"""
+    START_TXT = """👋 Hey There !"""
     ABOUT_TXT = """👋 Hey There ! 
 
- ɪ'ᴍ  🄲🄸🄽🄴🄷🅄🄱 мσνιє & тν ѕєяιєѕ sᴇᴀʀᴄʜᴇʀ ʙᴏᴛ ɪɴ ᴄɪɴᴇʜᴜʙ ᴄᴏᴍᴍᴜɴɪᴛʏ . .
-
-⚡️ <b>ʙᴏᴛ ɴᴀᴍᴇ : @media_searcher_bot</b>
-
- ○ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3 
- ○ sᴇʀᴠᴇʀ : ʜᴇʀᴏᴋᴜ 
- ○ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : 🔐 
- ○ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ
- ○ ᴅʙ ɴᴀᴍᴇ : ᴍᴏɴɢᴏ ᴅʙ
- ○ ᴍᴏᴅɪғɪᴇᴅ & ᴇᴅɪᴛᴇᴅ ʙʏ : @Mr_Devil_6699 
- ○ ᴍᴀɪɴ ʙᴀsɪᴄ ʀᴇᴘᴏ :  ᴛᴇᴀᴍ ᴇᴠᴀ ᴍᴀʀɪᴀ
- ○ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : v1.0.1 | ʀᴇᴍᴀᴋᴇ : #1
-
-© <a href=https://t.me/cinehub_family>🄲🄸🄽🄴🄷🅄🄱</a>"""
-    SOURCE_TXT = """<b>📌 ησтє</b>
-
- ○ ᴍᴀɪɴ ʙᴀsɪᴄ ʀᴇᴘᴏ :  ᴛᴇᴀᴍ ᴇᴠᴀ ᴍᴀʀɪᴀ
- ○ ᴍᴏᴅɪғɪᴇᴅ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : 🔐 | ʀᴇᴍᴀᴋᴇ : #1"""
+ """
+    SOURCE_TXT = """...."""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 ○ ғɪʟᴛᴇʀ ɪs ᴛʜᴇ ғᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜsᴇʀs ᴄᴀɴ sᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇs ғᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ᴇᴠᴀᴍᴀʀɪᴀ ᴡɪʟʟ ʀᴇsᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪs ғᴏᴜɴᴅ ᴛʜᴇ ᴍᴇssᴀɢᴇ
@@ -56,7 +20,7 @@ class script(object):
 • /delall - ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ᴡʜᴏʟᴇ ғɪʟᴛᴇʀs ɪɴ ᴀ ᴄʜᴀᴛ (αdмιɴ oɴly)"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- Eva Maria Supports both url and alert inline buttons.
+- this bot Supports both url and alert inline buttons.
 
 <b>📌 ησтє</b>
 𝟷. ᴛᴇʟᴇɢʀᴀᴍ ᴡɪʟʟ ɴᴏᴛ ᴀʟʟᴏᴡs ʏᴏᴜ ᴛᴏ sᴇɴᴅ ʙᴜᴛᴛᴏɴs ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴄᴏɴᴛᴇɴᴛ, sᴏ ᴄᴏɴᴛᴇɴᴛ ɪs ᴍᴀɴᴅᴀᴛᴏʀʏ
@@ -64,18 +28,14 @@ class script(object):
 𝟹. ʙᴜᴛᴛᴏɴs sʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀsᴇᴅ ᴀs ᴍᴀʀᴋᴅᴏᴡɴ ғᴏʀᴍᴀᴛ 
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+<code>[Button Text](buttonurl:https://t.me/Animedownlpadtestbot)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
 
 <b>📌 ησтє</b>
-𝟷. ᴍᴀᴋᴇ ᴍᴇ ᴛʜᴇ ᴀᴅᴍɪɴ ᴏғ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɪғ ɪᴛ's ᴘʀɪᴠᴀᴛᴇ
-𝟸. ᴍᴀᴋᴇ sᴜʀᴇ ᴛʜᴀᴛ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴅᴏᴇs ɴᴏᴛ ᴄᴏɴᴛᴀɪɴs ᴄᴀᴍʀɪᴘs, ᴘᴏʀɴ ᴀɴᴅ ғᴀᴋᴇ ғɪʟᴇs
-𝟹. ғᴏʀᴡᴀʀᴅ ᴛʜᴇ ʟᴀsᴛ ᴍᴇssᴀɢᴇ ᴛᴏ ᴍᴇ ᴡɪᴛʜ ǫᴜᴏᴛᴇs
-
-😇 ɪ'ʟʟ ᴀᴅᴅ ᴀʟʟ ᴛʜᴇ ғɪʟᴇs ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴍʏ ᴅʙ."""
+."""
     CONNECTION_TXT = """Help: <b>Connections</b>
 
 - Used to connect bot to PM for managing filters 
